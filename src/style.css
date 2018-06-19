@@ -1,0 +1,40 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+
+
+    background: -webkit-linear-gradient(90deg, rgb(237, 224, 22), rgb(71, 20, 90));
+    background: linear-gradient(90deg, rgb(237, 224, 22), rgb(71, 20, 90)); //text-align: center;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+.jumbotron {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 40px;
+    text-shadow: #000 2px 2px 5px;
+    word-spacing: 15px;
+}
+
+.text-giant {
+    font-size: 40px;
+}
+
+
+.noselect {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
